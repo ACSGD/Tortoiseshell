@@ -19,6 +19,7 @@ header{
   background-position: center;
   background-size: cover;
   height: 30rem;
+  padding: 1rem 0;
 }
 /*Header*/
 nav{
@@ -110,4 +111,53 @@ footer{
 footer img{
   margin-right: 1rem;
   height: 1.5rem;
+}
+/*For tablet*/
+@media only screen and (max-width: 1024px){
+  .container{
+     max-width: 100%
+  }
+
+  header{
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  .main-banner{
+     margin-top:5rem;
+     margin-right: 2rem;
+  }
+
+   h1{
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
+}
+/*For Mobbile*/
+@media only screen and (max-width: 560px){
+  .container{
+    max-width: 100%;
+  }
+  header{
+    padding-top: 0;
+    height: 17rem;
+    padding-bottom: 5rem;
+    }
+  .mobile-nav{
+    display:block;
+    text-align: center;
+  }
+  .menu{
+    display: none;
+  }
+  .main-banner{
+    margin-top:9rem;
+    display: flex;
+
+  }
+
+   h1{
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
 }
