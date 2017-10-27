@@ -142,22 +142,67 @@ footer img{
     padding-top: 0;
     height: 17rem;
     padding-bottom: 5rem;
+    background-position: 20%;
     }
+
   .mobile-nav{
     display:block;
     text-align: center;
   }
+
   .menu{
     display: none;
   }
-  .main-banner{
-    margin-top:9rem;
-    display: flex;
-
+  header span{
+    display: none;
   }
+
+  .main-banner{
+    width: 100%;
+    margin: 9rem 0 5rem 0;
+   }
 
    h1{
-    font-size: 1.33rem;
-    padding: 0.75rem 4rem;
+    font-size: 1rem;
+    padding: 1rem 0;
+    text-align: center;
   }
+    section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 3rem;
+
+      width: 100%;
+
+    }
+    .service{
+      margin: 0;
+      height: auto;
+      font-size: 0.77rem;
+    }
+    .service img{
+      margin-bottom: 1.54rem;
+      margin-top: 1.54rem;
+    }
+    section .info{
+      width: 100%;
+    }
+    .info .title{
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+    }
+    .info p{
+      padding: 1rem;
+      width: 100%;
+      font-size: 0.77rem;
+   }
+   .mobile-footer{
+     display:none;
+   }
+   footer{
+     justify-content: center;
+   }
+
 }
