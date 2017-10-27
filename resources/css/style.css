@@ -1,0 +1,113 @@
+html{
+  font-size: 18px;
+  background-color: white;
+}
+
+body{
+  font-family: Helvetica;
+  line-height: 1.4;
+}
+.container{
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+}
+/*Header Image*/
+header{
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+}
+/*Header*/
+nav{
+  background-color: cadetblue;
+  align-items: center;
+  justify-content: space-between;
+  color:white;
+  font-size: 1rem;
+  padding: 18px 0;
+}
+
+nav img{
+  height: 1.5rem;
+  margin-right: 1rem;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+ul{
+  margin-top:1rem;
+  margin-bottom: 1rem;
+}
+
+ul li{
+  display:inline;
+  padding-right: 2rem;
+}
+.mobile-nav{
+  display: none;
+}
+/*Banner*/
+header .flex{
+  justify-content: flex-end;
+}
+
+.main-banner{
+  background-color: white;
+  display:inline-block;
+  margin-top: 10rem;
+  margin-right:2rem;
+  line-height: 2.4rem;
+}
+h1{
+  font-size: 2em;
+  line-height: 1.2;
+  font-weight: bold;
+  padding: 1.5rem 5rem;
+}
+/*Services*/
+section{
+  justify-content: center;
+  display: flex;
+}
+
+.service{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+.service img{
+  width: 3.5rem;
+}
+/*Business Information*/
+.title{
+  background-color: cadetblue;
+  padding: 0.5rem; 1.25rem;
+  font-weight: bold;
+  color: white;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+.info{
+  width:35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+}
+
+/*Footer*/
+footer{
+  padding: 4rem;
+  background-color: azure;
+}
+footer img{
+  margin-right: 1rem;
+  height: 1.5rem;
+}
